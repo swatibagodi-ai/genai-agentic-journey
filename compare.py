@@ -4,7 +4,7 @@ y=int(input("Enter the value of y:"))
 
 if x<y:
     print("X is less than y")
-if x>y:
+elif x>y:
     print("x is greater than y")
-if x==y:
+else:
     print("x is equals to y")
